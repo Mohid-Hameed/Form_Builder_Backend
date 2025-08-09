@@ -10,7 +10,7 @@ DOCKER_COMPOSE=docker-compose
 
 # Run Django server
 run:
-	$(MANAGE) runserver 0.0.0.0:8000
+	$(MANAGE) runserver
 
 # Make database migrations
 makemigrations:
